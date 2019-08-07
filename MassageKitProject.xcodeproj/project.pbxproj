@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85D22CDFCCF0D12DC5C34AEE /* Pods_MassageKitProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8133F4FFD8844023924F7A72 /* Pods_MassageKitProject.framework */; };
+		CEFCCC8722F7C20D005A96C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFCCC8622F7C20D005A96C9 /* AppDelegate.swift */; };
+		CEFCCC8922F7C20D005A96C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFCCC8822F7C20D005A96C9 /* ViewController.swift */; };
+		CEFCCC8C22F7C20D005A96C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFCCC8A22F7C20D005A96C9 /* Main.storyboard */; };
+		CEFCCC8E22F7C212005A96C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFCCC8D22F7C212005A96C9 /* Assets.xcassets */; };
+		CEFCCC9122F7C212005A96C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFCCC8F22F7C212005A96C9 /* LaunchScreen.storyboard */; };
+		CEFCCC9D22F7C834005A96C9 /* ChatUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFCCC9C22F7C834005A96C9 /* ChatUser.swift */; };
+		CEFCCC9F22F7CCD8005A96C9 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFCCC9E22F7CCD8005A96C9 /* Message.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28A47FB2543E091C1A2BBD3D /* Pods-MassageKitProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MassageKitProject.release.xcconfig"; path = "Target Support Files/Pods-MassageKitProject/Pods-MassageKitProject.release.xcconfig"; sourceTree = "<group>"; };
+		7AC1D8BBCD8B4187A259910A /* Pods-MassageKitProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MassageKitProject.debug.xcconfig"; path = "Target Support Files/Pods-MassageKitProject/Pods-MassageKitProject.debug.xcconfig"; sourceTree = "<group>"; };
+		8133F4FFD8844023924F7A72 /* Pods_MassageKitProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MassageKitProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFCCC8322F7C20D005A96C9 /* MassageKitProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MassageKitProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFCCC8622F7C20D005A96C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEFCCC8822F7C20D005A96C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEFCCC8B22F7C20D005A96C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEFCCC8D22F7C212005A96C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEFCCC9022F7C212005A96C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEFCCC9222F7C212005A96C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFCCC9C22F7C834005A96C9 /* ChatUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUser.swift; sourceTree = "<group>"; };
+		CEFCCC9E22F7CCD8005A96C9 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFCCC8022F7C20D005A96C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D22CDFCCF0D12DC5C34AEE /* Pods_MassageKitProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEFCCC7A22F7C20C005A96C9 = {
+			isa = PBXGroup;
+			children = (
+				CEFCCC8522F7C20D005A96C9 /* MassageKitProject */,
+				CEFCCC8422F7C20D005A96C9 /* Products */,
+				DB3FC0C63BD26DADE923560E /* Pods */,
+				FC45267A2B8A529E2D2A31CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFCCC8422F7C20D005A96C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFCCC8322F7C20D005A96C9 /* MassageKitProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFCCC8522F7C20D005A96C9 /* MassageKitProject */ = {
+			isa = PBXGroup;
+			children = (
+				CEFCCC9922F7C7DD005A96C9 /* Objects */,
+				CEFCCC9822F7C7AE005A96C9 /* Controllers */,
+				CEFCCC8622F7C20D005A96C9 /* AppDelegate.swift */,
+				CEFCCC8A22F7C20D005A96C9 /* Main.storyboard */,
+				CEFCCC8D22F7C212005A96C9 /* Assets.xcassets */,
+				CEFCCC8F22F7C212005A96C9 /* LaunchScreen.storyboard */,
+				CEFCCC9222F7C212005A96C9 /* Info.plist */,
+			);
+			path = MassageKitProject;
+			sourceTree = "<group>";
+		};
+		CEFCCC9822F7C7AE005A96C9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEFCCC8822F7C20D005A96C9 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CEFCCC9922F7C7DD005A96C9 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				CEFCCC9C22F7C834005A96C9 /* ChatUser.swift */,
+				CEFCCC9E22F7CCD8005A96C9 /* Message.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		DB3FC0C63BD26DADE923560E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AC1D8BBCD8B4187A259910A /* Pods-MassageKitProject.debug.xcconfig */,
+				28A47FB2543E091C1A2BBD3D /* Pods-MassageKitProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC45267A2B8A529E2D2A31CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8133F4FFD8844023924F7A72 /* Pods_MassageKitProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFCCC8222F7C20D005A96C9 /* MassageKitProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFCCC9522F7C212005A96C9 /* Build configuration list for PBXNativeTarget "MassageKitProject" */;
+			buildPhases = (
+				375903F080E34C9766CF0CE1 /* [CP] Check Pods Manifest.lock */,
+				CEFCCC7F22F7C20D005A96C9 /* Sources */,
+				CEFCCC8022F7C20D005A96C9 /* Frameworks */,
+				CEFCCC8122F7C20D005A96C9 /* Resources */,
+				748BD17C89C682FFBFFB14A1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MassageKitProject;
+			productName = MassageKitProject;
+			productReference = CEFCCC8322F7C20D005A96C9 /* MassageKitProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFCCC7B22F7C20C005A96C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "谷地元　星斗";
+				TargetAttributes = {
+					CEFCCC8222F7C20D005A96C9 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = CEFCCC7E22F7C20C005A96C9 /* Build configuration list for PBXProject "MassageKitProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEFCCC7A22F7C20C005A96C9;
+			productRefGroup = CEFCCC8422F7C20D005A96C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFCCC8222F7C20D005A96C9 /* MassageKitProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFCCC8122F7C20D005A96C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFCCC9122F7C212005A96C9 /* LaunchScreen.storyboard in Resources */,
+				CEFCCC8E22F7C212005A96C9 /* Assets.xcassets in Resources */,
+				CEFCCC8C22F7C20D005A96C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		375903F080E34C9766CF0CE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MassageKitProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		748BD17C89C682FFBFFB14A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MassageKitProject/Pods-MassageKitProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MassageKitProject/Pods-MassageKitProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MassageKitProject/Pods-MassageKitProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFCCC7F22F7C20D005A96C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFCCC9D22F7C834005A96C9 /* ChatUser.swift in Sources */,
+				CEFCCC9F22F7CCD8005A96C9 /* Message.swift in Sources */,
+				CEFCCC8922F7C20D005A96C9 /* ViewController.swift in Sources */,
+				CEFCCC8722F7C20D005A96C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEFCCC8A22F7C20D005A96C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFCCC8B22F7C20D005A96C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEFCCC8F22F7C212005A96C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFCCC9022F7C212005A96C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEFCCC9322F7C212005A96C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEFCCC9422F7C212005A96C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEFCCC9622F7C212005A96C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AC1D8BBCD8B4187A259910A /* Pods-MassageKitProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7T8Z8P27DC;
+				INFOPLIST_FILE = MassageKitProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.MassageKitProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEFCCC9722F7C212005A96C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28A47FB2543E091C1A2BBD3D /* Pods-MassageKitProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7T8Z8P27DC;
+				INFOPLIST_FILE = MassageKitProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.MassageKitProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFCCC7E22F7C20C005A96C9 /* Build configuration list for PBXProject "MassageKitProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFCCC9322F7C212005A96C9 /* Debug */,
+				CEFCCC9422F7C212005A96C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFCCC9522F7C212005A96C9 /* Build configuration list for PBXNativeTarget "MassageKitProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFCCC9622F7C212005A96C9 /* Debug */,
+				CEFCCC9722F7C212005A96C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEFCCC7B22F7C20C005A96C9 /* Project object */;
+}
